@@ -19,6 +19,11 @@ class Player {
 
   life() {
     push();
+    
+    textSize(20);
+    fill("white");
+    text("Player", 280, 40);
+    
    //write a correct code to show lives as three green rectangles in a strainght line.
    fill(this.life1);
     rect(180, 50, 70, 30);
